@@ -12,6 +12,7 @@ export default ({
    */
   const save = (editorState) => {
     clean = true;
+    oldState = editorState;
 
     if (saveFunction) {
       saveFunction(editorState);

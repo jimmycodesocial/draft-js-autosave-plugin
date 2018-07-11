@@ -1,6 +1,6 @@
 {
   "name": "@jimmycode/draft-js-autosave-plugin",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Autosave changes of your draft-js editor",
   "keywords": [
     "draft-js",
