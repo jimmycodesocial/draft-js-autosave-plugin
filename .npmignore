@@ -1,0 +1,7 @@
+node_modules
+/src/
+npm-debug.log
+webpack.config.js
+.babelrc
+.nyc_output
+coverage
