@@ -33,7 +33,7 @@
     "build:js": "BABEL_DISABLE_CACHE=1 BABEL_ENV=production webpack --config ./webpack.config.js --mode production",
     "lint": "eslint -c .eslintrc src test",
     "prepublish": "npm run build",
-    "test": "NODE_ENV=test nyc --check-coverage --statements 100 ava"
+    "test": "NODE_ENV=test nyc --check-coverage --statements 100 ava && NODE_ENV=test nyc report --reporter=text-lcov | coveralls"
   },
   "ava": {
     "babel": {
@@ -83,6 +83,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "browser-env": "^3.2.5",
+    "coveralls": "^3.0.2",
     "draft-js": "^0.10.5",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",

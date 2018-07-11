@@ -1,4 +1,8 @@
 # draft-js-autosave-plugin
+
+[![Build Status](https://travis-ci.org/jimmycodesocial/draft-js-autosave-plugin.svg?branch=master)](https://travis-ci.org/jimmycodesocial/draft-js-autosave-plugin)
+[![Coverage Status](https://coveralls.io/repos/github/jimmycodesocial/draft-js-autosave-plugin/badge.svg?branch=master)](https://coveralls.io/github/jimmycodesocial/draft-js-autosave-plugin?branch=master)
+
 Autosave changes of your draft-js editor.
 
 *This is a plugin for `draft-js-plugins-editor`.*

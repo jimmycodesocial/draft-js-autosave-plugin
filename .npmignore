@@ -5,3 +5,4 @@ webpack.config.js
 .babelrc
 .nyc_output
 coverage
+.coveralls
